@@ -1,0 +1,39 @@
+
+.menu h3 {
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: black;
+    position: relative;
+    transition: height 0.5s ease; 
+    overflow: hidden; 
+}
+
+.menu:hover {
+    height: 350px; 
+}
+
+.ousmane {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    transition: opacity 0.5s ease;
+}
+
+.menu:hover .ousmane {
+    opacity: 1; 
+}
